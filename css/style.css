@@ -8,9 +8,45 @@ didinam ekrana ir ziurim kad butu gerai ties 768px */
 /* didinam ekrana ir ziurim kad butu gerai ties 1000px */
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap");
 @import "reset.css";
 @import "common.css";
 
 .hero {
   background-image: url(https://sapiensnetwork.eu/wp-content/uploads/2021/01/gradient-background-02.jpg);
+  min-height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  /* padding-top: 100px;
+  padding-bottom: 50px; */
+  padding: 100px 30px 100px 30px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+}
+
+.subtitle {
+  color: rgb(220, 216, 216);
+}
+
+button {
+  padding: 12px 140px 12px 140px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .hero {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
 }
