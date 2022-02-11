@@ -1,0 +1,16 @@
+/* 
+pasirasom html
+
+apsirasom css nuo 320
+
+didinam ekrana ir ziurim kad butu gerai ties 768px */
+
+/* didinam ekrana ir ziurim kad butu gerai ties 1000px */
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+@import "reset.css";
+@import "common.css";
+
+.hero {
+  background-image: url(https://sapiensnetwork.eu/wp-content/uploads/2021/01/gradient-background-02.jpg);
+}
